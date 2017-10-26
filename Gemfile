@@ -1,7 +1,7 @@
-ruby '2.1.3'
+ruby '2.4.2'
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.3'
+gem 'rails', '4.2.10'
 gem 'thin'
 gem 'faye'
 
@@ -26,6 +26,7 @@ gem 'redmine_client', github: 'itbeaver/redmine_client'
 gem 'backtop'
 gem 'mongoid', github: 'mongoid'
 gem 'bson_ext'
+gem 'responders'
 
 gem 'rspec-rails', group: [:test, :development]
 
